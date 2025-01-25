@@ -1,0 +1,25 @@
+.dark{
+    background: #000;
+}
+
+.light{
+    background: #fff;
+}
+
+body{ 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.grid-item {
+    position: relative; /* Makes the grid item the reference for absolute positioning */
+  }
+  
+  .grid-item .dropdown-menu {
+    position: absolute; /* Ensure it is positioned relative to the button group */
+    z-index: 1050; /* Bootstrap dropdown default z-index is 1050; ensure it stays above */
+    background-color: white; /* Ensure visibility if grid item has a background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Optional: Add a shadow for clarity */
+  }
+  

@@ -186,8 +186,7 @@ function Content() {
   return (
     <>
     <div>
-        Content
-        <button className='btn' onClick={handleWidgets}>add new</button>
+        <button className='btn btn-success' onClick={handleWidgets}>add new</button>
         <div>
         <ResponsiveGridLayout
         className="layout"
